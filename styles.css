@@ -1,46 +1,143 @@
-* {
-  box-sizing: border-box;
+body{
+ margin: 0;
+ display: flex;
+ align-items: center;
+ 
 }
 
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+p{
+ font-size: 16px;
+ transition: 0.5s;
+ cursor: pointer;
+ color: red;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+p:hover{
+ font-size: 16px;
+ transition: 0.5s;
+ cursor: pointer;
+ color: purple;
+
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
+img{
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+
+}
+.fjellbilder{
+
+ text-align: center;
+ display: flex;
+ 
+}
+ .fjellbilder2{
+  
+ text-align: center;
+ display: flex;
+
+}
+
+.fjellbilder3{
   text-align: center;
-  text-decoration: none;
-  color: #555;
+  display: flex;
+
 }
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+.button1{
+ height: 25px;
+ width: 70px;
+ border: 1px solid black;
+ border-radius: 5px;
+ background-color: blueviolet;
+ font-size: 16px;
+ text-align: center;
+ cursor: pointer;
+ transition: 1s;
+ 
 }
 
-main {
-  padding: 1rem;
+.button1:hover{
+ height: 25px;
+ width: 75px;
+ border: 1px solid black;
+ border-radius: 5px;
+ background-color: pink;
+ font-size: 16px;
+ text-align: center;
+ cursor: pointer;
+ transition: 1s;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.button2{
+  height: 25px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+  
+ }
+ 
+ .button2:hover{
+  height: 25px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: pink;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+ }
+
+ .btn3{
+  height: 25px;
+  width: 25px;
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: blueviolet;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn3:hover{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: pink;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.btn4{
+  height: 25px;
+  width: 25px;
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: blueviolet;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn4:hover{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: pink;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
 }
